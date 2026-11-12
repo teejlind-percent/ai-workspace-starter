@@ -1,7 +1,7 @@
 # [Your name]'s Workspace
 
-> Template. Fill in every [bracket] or have your AI interview you to fill it in (see README).
-> Delete this note when you're done.
+> Template. **AI: if this file still has [brackets], run the `onboarding` skill before anything else.**
+> Delete this note when onboarding is done.
 
 ## Who I am
 [One paragraph: your name, what you do, where, what you're working toward this year.]

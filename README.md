@@ -20,11 +20,17 @@ You need [Claude Code](https://claude.com/claude-code) (desktop app or terminal)
 
 1. Download this repo: the green **Code** button, then **Download ZIP**, or `git clone` it.
 2. Open the folder in Claude Code.
-3. Paste this:
+3. Type: **"Set me up."** (or `/onboarding`)
 
-   > Read every file in this folder. This is a starter workspace. Interview me two or three questions at a time about who I am, what I'm working on, how I like to work and what you should never do without asking. Then fill in `CLAUDE.md` and the files in `context/` with my answers. Don't invent anything. If you don't know it, write [blank] and ask me.
+   That starts a long interview, usually 20 to 40 minutes, two or three questions at a time. It asks who you are, what you're working toward, how you work, how you sound, what kind of AI teammate you want, and where it must stop and hand things back to you. If you've used ChatGPT or another AI a lot, it gives you a prompt to bring that history over. Then it reads its understanding of you back, shows you every file before writing it, sets up your first project and does one real task with you.
 
-4. Answer its questions. When it's done, read `CLAUDE.md` yourself and fix anything that sounds wrong. It's your constitution, so it should sound like you.
+   You can stop anytime and say "continue onboarding" later.
+
+4. When it's done, read `CLAUDE.md` yourself and fix anything that sounds wrong. It's your constitution, so it should sound like you.
+
+**No onboarding skill support in your tool?** Paste this instead:
+
+> Read every file in this folder, especially `.claude/skills/onboarding/`. Follow that onboarding process with me: interview me two or three questions at a time, reflect back what you heard, and show me each file before you write it. Don't invent anything. If you don't know it, write [blank].
 
 ## What's in here
 
@@ -36,7 +42,7 @@ You need [Claude Code](https://claude.com/claude-code) (desktop app or terminal)
 | `projects/_template/` | Copy this folder for every new project: `brief.md` to start, `debrief.md` to finish. |
 | `playbooks/` | Formats that worked, saved so you don't reinvent them. |
 | `memory/` | `lessons.md` holds what you learned. `journal/` gets one line per working session. |
-| `.claude/skills/` | Three reusable moves: `brief`, `critic-bench`, `debrief`. Just ask for them by name. |
+| `.claude/skills/` | `onboarding` (the first-time interview), plus three moves you'll reuse: `brief`, `critic-bench`, `debrief`. Ask for any of them by name. |
 | `.claude/hooks/block_send.py` | The rail. Blocks send, post, publish and delete actions. Test it: `python3 .claude/hooks/block_send.py --self-test` |
 | `examples/deca-chapter/` | A filled-in example: a DECA chapter VP running a recruitment push. All names are made up. |
 
