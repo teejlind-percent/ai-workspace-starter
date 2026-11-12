@@ -11,6 +11,9 @@ This is a conversation, not a form. Expect 20 to 40 minutes. Tell them so up fro
 
 ## Ground rules
 
+- **Get them talking, not typing.** Before the first question, ask them to turn on voice input: `/voice` in Claude Code, the voice input in Codex or their tool, or their computer's dictation (Mac: Globe/Fn twice; Windows: Windows key + H). Tell them to ramble, go on tangents and think out loud, and that a two-minute messy answer beats a tidy sentence because you'll pull out what matters. If an answer comes back short, say so: "Tell me more. Talk it through."
+- **Messy answers are your job to sort.** Long voice transcripts will jump around and answer questions you haven't asked yet. Pull out everything useful, file it under the right topic, and skip questions they've already answered.
+
 - **Two or three questions at a time. Never more.** Wait for answers before the next round.
 - **Follow up on every vague answer.** "Marketing" isn't a goal. "Get my chapter from 34 to 50 members by January" is. Ask "what does that look like?" or "give me an example" until you get something specific.
 - **Reflect back before you move on.** At the end of each part, summarize what you heard in three to five bullets and ask "what did I get wrong?"
@@ -27,6 +30,8 @@ This is a conversation, not a form. Expect 20 to 40 minutes. Tell them so up fro
 Say something like:
 
 > This folder is a workspace that remembers you. I'm going to interview you for a while about who you are, what you're working on and how you like to work, then write it all into a few files I read at the start of every session. Nothing goes in without your OK, and you can change any of it later.
+>
+> One request before we start: turn on voice and just talk. Type `/voice` (or use your computer's dictation), and ramble. The more you tell me, even messy and out of order, the better this works. I'll sort it out.
 
 Then explain the layers in one short list, so they know what they're building:
 

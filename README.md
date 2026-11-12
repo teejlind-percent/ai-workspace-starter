@@ -20,13 +20,17 @@ You need [Claude Code](https://claude.com/claude-code) (desktop app or terminal)
 
 1. Download this repo: the green **Code** button, then **Download ZIP**, or `git clone` it.
 2. Open the folder in Claude Code.
-3. Type: **"Set me up."** (or `/onboarding`)
+3. **Turn on voice.** In Claude Code, type `/voice`. In Codex or another tool, use its voice input, or your computer's dictation (Mac: press the Globe/Fn key twice; Windows: Windows key + H).
+
+   This matters more than anything else in setup. Don't type short answers; talk. Ramble for two minutes per question, go on tangents, think out loud. The AI is great at pulling what matters out of a giant block of messy text, and it can't use what you never told it. The more you say, the better it works.
+
+4. Say: **"Set me up."** (or type `/onboarding`)
 
    That starts a long interview, usually 20 to 40 minutes, two or three questions at a time. It asks who you are, what you're working toward, how you work, how you sound, what kind of AI teammate you want, and where it must stop and hand things back to you. If you've used ChatGPT or another AI a lot, it gives you a prompt to bring that history over. Then it reads its understanding of you back, shows you every file before writing it, sets up your first project and does one real task with you.
 
    You can stop anytime and say "continue onboarding" later.
 
-4. When it's done, read `CLAUDE.md` yourself and fix anything that sounds wrong. It's your constitution, so it should sound like you.
+5. When it's done, read `CLAUDE.md` yourself and fix anything that sounds wrong. It's your constitution, so it should sound like you.
 
 **No onboarding skill support in your tool?** Paste this instead:
 
@@ -48,6 +52,7 @@ You need [Claude Code](https://claude.com/claude-code) (desktop app or terminal)
 
 ## How to use it day to day
 
+- **Keep talking instead of typing.** Voice mode isn't just for setup. Explaining what you want out loud, with all the context, beats a tidy one-line prompt almost every time.
 - **Starting something:** "New project: fall recruitment. Use the brief skill." It copies the template and interviews you until the brief is real.
 - **Checking a draft:** "Run the critic bench on this. Three judges: a small-business owner, a bank manager and a marketing director."
 - **Finishing:** "Debrief this project." Then move the lessons that matter into `memory/lessons.md`.

@@ -2,6 +2,8 @@
 
 Pick two or three per round. Go deeper on anything vague, surprising or emotional. You don't need all of them.
 
+These work best answered out loud with voice input on. Encourage long, rambling answers; one good ramble often covers three topics, so skip what's already answered.
+
 ## 1. Who you are
 - What do you do? School, grade, job, clubs, teams, whatever takes up your week.
 - Walk me through a normal week. Where does the time actually go?
